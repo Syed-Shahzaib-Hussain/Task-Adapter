@@ -12,6 +12,11 @@ a {
 	text-decoration: none;
 }
 
+#nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
 #nav a:visited {
 	color: #fff;
 	text-decoration: none;

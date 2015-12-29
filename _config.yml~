@@ -1,3 +1,21 @@
-markdown: redcarpet
-baseurl: /Client-Website
-exclude: ["README.md"]
+# Site settings
+title: TaskAdapter
+email: support@taskadapter.com
+description: > # this means to ignore newlines until "baseurl:"
+ Transfer tasks between any of the following systems:
+ Basecamp, Basecamp Classic, ChiliProject, GitHub, JIRA, JIRA OnDemand, MantisBT,      Microsoft Project, Redmine.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.taskadapter.com" # the base hostname & protocol for your site
+
+# WordPress usually follows this format for URLs:  http://domain.com/year/month/day/title
+# In order to have this same format in Jekyll, add the following line to _config.yml
+permalink:    /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+
+# This will render all files in "_components" folder and create HTML pages for them
+collections:
+  components:
+    output: true
