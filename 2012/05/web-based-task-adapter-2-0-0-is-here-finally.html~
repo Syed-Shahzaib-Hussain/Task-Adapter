@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<div id="wrapper" class="clearfix">
+
+<div id="content" class="grid col-620">
+
+	
+	
+		
+						<div id="post-282" class="post-282 post type-post status-publish format-standard hentry category-release">
+				
+				
+	<h1 class="entry-title post-title">Web-based Task Adapter 2.0 is here. Finally.</h1>
+
+<div class="post-meta">
+	<span class="meta-prep meta-prep-author posted">Posted on </span><a href="{{site.baseurl}}/2012/05/28/web-based-task-adapter-2-0-0-is-here-finally/" title="Web-based Task Adapter 2.0 is here. Finally." rel="bookmark"><time class="timestamp updated" datetime="2012-05-28T21:26:00+00:00">May 28, 2012</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="{{site.baseurl}}/author/admin/" title="View all posts by admin">admin</a></span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<p>We released Task Adapter version 2.0 today. This is a huge step and we hope you will like the new version, which&nbsp;uses the same well-tested data connectors as before, but its User Interface is now web-based instead of the old Eclipse-based desktop application.</p>
+<p>This is not a “web-hosted-cloud-style” application. You still need to <a href="{{site.baseurl}}/user-guide/installation/">download and start the software</a> on your machine in order to use it.</p>
+<p>We believe the new User Interface is a huge leap forward: it’s more user-friendly and gives more freedom, including the possibility to&nbsp;share one Task Adapter installation among multiple users (“server mode” installation).</p>
+<p>Please visit our brand-new website:&nbsp;<a href="{{site.baseurl}}/">http://www.taskadapter.com</a>&nbsp;to read more about the new version.</p>
+<p>Changes in the licensing model:</p>
+<ul>
+<li>The new version uses a new license format, so old licenses from the desktop version won’t work.&nbsp;</li>
+</ul>
+<ul>
+<li>License price&nbsp;depends on amount of users.&nbsp;One User is a person or an automated software script/program accessing or using Task Adapter in any way. See details in the <a href="{{site.baseurl}}/license-agreement">Task Adapter license agreement</a>.</li>
+</ul>
+<ul>
+<li>New licenses have expiration dates and the software won’t work after that date. If you purchased the &nbsp; &nbsp;desktop-version of&nbsp; Task Adapter, you can still use it&nbsp;forever as we promised. The new licensing scheme does not affect the old product. Although we believe the web-based 2.0.0 gives many advantages and it is worth switching to. The price per year is nothing compared to amount of money and time you’d spend developing, maintaining and improving the same kind of system internally.</li>
+</ul>
+<div>Please, let us know what you think about the new Task Adapter release!</div>
+
+					
+									</div>
+				<!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">‹ <a href="{{site.baseurl}}/2012/05/22/redmine-java-api-1-11-0-new-features-new-maven-group-id/" rel="prev">Redmine Java API 1.11.0: new features, new Maven Group ID.</a></div>
+					<div class="next"><a href="{{site.baseurl}}/2012/06/18/task-adapter-2-0-1-support-for-redmine-version-2-0/" rel="next">Task Adapter 2.0.1: support for Redmine 2.0.2</a> ›</div>
+				</div>
+				<!-- end of .navigation -->
+
+				
+
+	<div class="post-data">
+				Posted in <a href="{{site.baseurl}}/category/release/">release</a>	</div><!-- end of .post-data -->
+
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-282 -->
+			
+						
+
+
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit">
+		
+		<div id="categories-5" class="widget-wrapper widget_categories"><div class="widget-title"><h3>Categories</h3></div>		<ul>
+	<li class="cat-item cat-item-9"><a href="{{site.baseurl}}/category/atlassian-jira/">atlassian jira</a> (22)
+</li>
+	<li class="cat-item cat-item-15"><a href="{{site.baseurl}}/category/basecamp/">basecamp</a> (4)
+</li>
+	<li class="cat-item cat-item-16"><a href="{{site.baseurl}}/category/basecamp-classic/">basecamp classic</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="{{site.baseurl}}/category/development/">development</a> (5)
+</li>
+	<li class="cat-item cat-item-13"><a href="{{site.baseurl}}/category/github/">github</a> (3)
+</li>
+	<li class="cat-item cat-item-12"><a href="{{site.baseurl}}/category/mantisbt/">mantisbt</a> (8)
+</li>
+	<li class="cat-item cat-item-11"><a href="{{site.baseurl}}/category/microsoft-project/">microsoft project</a> (28)
+</li>
+	<li class="cat-item cat-item-7"><a href="{{site.baseurl}}/category/redmine/">redmine</a> (44)
+</li>
+	<li class="cat-item cat-item-8"><a href="{{site.baseurl}}/category/redmine-java-api/">redmine java api</a> (18)
+</li>
+	<li class="cat-item cat-item-10"><a href="{{site.baseurl}}/category/release/">release</a> (56)
+</li>
+	<li class="cat-item cat-item-1"><a href="{{site.baseurl}}/category/uncategorized/">Uncategorized</a> (12)
+</li>
+		</ul>
+</div>
+			</div><!-- end of #widgets -->
+</div>

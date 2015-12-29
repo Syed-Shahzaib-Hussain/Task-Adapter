@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<div id="wrapper" class="clearfix">
+
+<div id="content" class="grid col-620">
+
+	
+	
+		
+						<div id="post-713" class="post-713 post type-post status-publish format-standard hentry category-release category-uncategorized">
+				
+				
+	<h1 class="entry-title post-title">Task Adapter 2.8.1: bigfixes</h1>
+
+<div class="post-meta">
+	<span class="meta-prep meta-prep-author posted">Posted on </span><a href="http://www.taskadapter.com/2014/10/19/task-adapter-2-8-1-bigfixes/" title="Task Adapter 2.8.1: bigfixes" rel="bookmark"><time class="timestamp updated" datetime="2014-10-19T03:42:34+00:00">October 19, 2014</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="http://www.taskadapter.com/author/admin/" title="View all posts by admin">admin</a></span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<p>The new release has several User Interface bugs fixed. No changes in the data connectors themselves (Jira, Redmine, etc).</p>
+
+					
+									</div>
+				<!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">‹ <a href="http://www.taskadapter.com/2014/09/08/redmine-java-api-is-verified-to-work-with-redmine-2-5-2/" rel="prev">Redmine Java API is verified to work with Redmine 2.5.2</a></div>
+					<div class="next"><a href="http://www.taskadapter.com/2015/01/26/redmine-java-api-2-1-0-is-released/" rel="next">Redmine Java API 2.1.0 is released</a> ›</div>
+				</div>
+				<!-- end of .navigation -->
+
+				
+
+	<div class="post-data">
+				Posted in <a href="http://www.taskadapter.com/category/release/">release</a>, <a href="http://www.taskadapter.com/category/uncategorized/">Uncategorized</a>	</div><!-- end of .post-data -->
+
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-713 -->
+			
+						
+
+
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit">
+		
+		<div id="categories-5" class="widget-wrapper widget_categories"><div class="widget-title"><h3>Categories</h3></div>		<ul>
+	<li class="cat-item cat-item-9"><a href="http://www.taskadapter.com/category/atlassian-jira/">atlassian jira</a> (22)
+</li>
+	<li class="cat-item cat-item-15"><a href="http://www.taskadapter.com/category/basecamp/">basecamp</a> (4)
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.taskadapter.com/category/basecamp-classic/">basecamp classic</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.taskadapter.com/category/development/">development</a> (5)
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.taskadapter.com/category/github/">github</a> (3)
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.taskadapter.com/category/mantisbt/">mantisbt</a> (8)
+</li>
+	<li class="cat-item cat-item-11"><a href="http://www.taskadapter.com/category/microsoft-project/">microsoft project</a> (28)
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.taskadapter.com/category/redmine/">redmine</a> (44)
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.taskadapter.com/category/redmine-java-api/">redmine java api</a> (18)
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.taskadapter.com/category/release/">release</a> (56)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.taskadapter.com/category/uncategorized/">Uncategorized</a> (12)
+</li>
+		</ul>
+</div>
+			</div><!-- end of #widgets -->
+</div>

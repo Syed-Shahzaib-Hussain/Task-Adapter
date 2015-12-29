@@ -1,0 +1,124 @@
+---
+layout: default
+---
+<div id="wrapper" class="clearfix">
+
+<div id="content" class="grid col-620">
+
+	
+	
+		
+						<div id="post-278" class="post-278 post type-post status-publish format-standard hentry category-redmine category-redmine-java-api">
+				
+				
+	<h1 class="entry-title post-title">Redmine Java API 1.9.0: support for "Delete issue relations"</h1>
+
+<div class="post-meta">
+	<span class="meta-prep meta-prep-author posted">Posted on </span><a href="{{site.baseurl}}/2012/04/06/redmine-java-api-1-9-0-support-for-delete-issue-relations/" title="Redmine Java API 1.9.0: support for &quot;Delete issue relations&quot;" rel="bookmark"><time class="timestamp updated" datetime="2012-04-06T17:24:00+00:00">April 6, 2012</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="{{site.baseurl}}/author/admin/" title="View all posts by admin">admin</a></span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<p>Redmine Java API 1.9.0 is released, <a href="http://search.maven.org/#artifactdetails%7Ccom.googlecode%7Credmine-java-api%7C1.9.0%7Cjar" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://search.maven.org/#artifactdetails%7Ccom.googlecode%7Credmine-java-api%7C1.9.0%7Cjar', 'available in Maven Central']);">available in Maven Central</a>.<br>Changes list:</p>
+<div class="gridtile" style="border-bottom-color: rgb(195, 217, 255); border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; border-bottom-style: solid; border-bottom-width: 2px; border-image: initial; border-left-color: rgb(195, 217, 255); border-left-style: solid; border-left-width: 2px; border-right-color: rgb(195, 217, 255); border-right-style: solid; border-right-width: 2px; border-top-color: rgb(195, 217, 255); border-top-left-radius: 6px; border-top-right-radius: 6px; border-top-style: solid; border-top-width: 2px; float: left; font-family: arial, sans-serif; font-size: 13px; margin-bottom: 2px; margin-left: 2px; margin-right: 2px; margin-top: 2px; padding-bottom: 1px; padding-left: 1px; padding-right: 1px; padding-top: 1px; width: 10em;">
+<table cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 131px;">
+<tbody>
+<tr>
+<td class="id" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial initial; background-repeat: initial initial; border-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-color: initial; border-left-style: initial; border-left-width: 0px; border-right-color: rgb(204, 204, 204); border-right-style: solid; border-right-width: 0px; border-style: initial; border-top-width: 0px; cursor: pointer; font-size: 13px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; text-align: left; width: 5em;"><img src="http://www.gstatic.com/codesite/ph/images/star_on.gif" style="border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-width: 0px; border-right-width: 0px; border-style: initial; border-top-width: 0px;">&nbsp;<a href="http://code.google.com/p/redmine-java-api/issues/detail?id=34" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://code.google.com/p/redmine-java-api/issues/detail?id=34', '34']);" style="color: purple; white-space: nowrap;">34</a></td>
+<td class="status" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial initial; background-repeat: initial initial; border-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-color: initial; border-left-style: initial; border-left-width: 0px; border-right-color: initial; border-right-style: initial; border-right-width: 0px; border-style: initial; border-top-width: 0px; cursor: pointer; font-size: 12px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; text-align: right; width: 62px;">Verified</td>
+</tr>
+<tr style="border-bottom-color: initial; border-bottom-style: initial; border-bottom-width: 0px;">
+<td colspan="2" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial initial; background-repeat: initial initial; border-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-color: initial; border-left-style: initial; border-left-width: 0px; border-right-color: initial; border-right-style: initial; border-right-width: 0px; border-style: initial; border-top-width: 0px; cursor: pointer; font-size: 13px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px;">
+<div style="font-size: 12px; height: 5.5ex; line-height: 12px;"><a href="http://code.google.com/p/redmine-java-api/issues/detail?id=34" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://code.google.com/p/redmine-java-api/issues/detail?id=34', 'project.getParentId() returns NULL after the project is loaded from the server']);" style="color: black; text-decoration: none;">project.getParentId() returns NULL after the project is loaded from the server</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gridtile" style="border-bottom-color: rgb(195, 217, 255); border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; border-bottom-style: solid; border-bottom-width: 2px; border-image: initial; border-left-color: rgb(195, 217, 255); border-left-style: solid; border-left-width: 2px; border-right-color: rgb(195, 217, 255); border-right-style: solid; border-right-width: 2px; border-top-color: rgb(195, 217, 255); border-top-left-radius: 6px; border-top-right-radius: 6px; border-top-style: solid; border-top-width: 2px; float: left; font-family: arial, sans-serif; font-size: 13px; margin-bottom: 2px; margin-left: 2px; margin-right: 2px; margin-top: 2px; padding-bottom: 1px; padding-left: 1px; padding-right: 1px; padding-top: 1px; width: 10em;">
+<table cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 131px;">
+<tbody>
+<tr>
+<td class="id" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial initial; background-repeat: initial initial; border-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-color: initial; border-left-style: initial; border-left-width: 0px; border-right-color: rgb(204, 204, 204); border-right-style: solid; border-right-width: 0px; border-style: initial; border-top-width: 0px; cursor: pointer; font-size: 13px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; text-align: left; width: 5em;"><img src="http://www.gstatic.com/codesite/ph/images/star_on.gif" style="border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-width: 0px; border-right-width: 0px; border-style: initial; border-top-width: 0px;">&nbsp;<a href="http://code.google.com/p/redmine-java-api/issues/detail?id=124" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://code.google.com/p/redmine-java-api/issues/detail?id=124', '124']);" style="color: purple; white-space: nowrap;">124</a></td>
+<td class="status" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial initial; background-repeat: initial initial; border-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-color: initial; border-left-style: initial; border-left-width: 0px; border-right-color: initial; border-right-style: initial; border-right-width: 0px; border-style: initial; border-top-width: 0px; cursor: pointer; font-size: 12px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; text-align: right; width: 62px;">Fixed</td>
+</tr>
+<tr style="border-bottom-color: initial; border-bottom-style: initial; border-bottom-width: 0px;">
+<td colspan="2" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial initial; background-repeat: initial initial; border-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-color: initial; border-left-style: initial; border-left-width: 0px; border-right-color: initial; border-right-style: initial; border-right-width: 0px; border-style: initial; border-top-width: 0px; cursor: pointer; font-size: 13px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px;">
+<div style="font-size: 12px; height: 5.5ex; line-height: 12px;"><a href="http://code.google.com/p/redmine-java-api/issues/detail?id=124" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://code.google.com/p/redmine-java-api/issues/detail?id=124', 'Support “delete issue relations” functionality']);" style="color: black; text-decoration: none;">Support “delete issue relations” functionality</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="gridtile" style="border-bottom-color: rgb(195, 217, 255); border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; border-bottom-style: solid; border-bottom-width: 2px; border-image: initial; border-left-color: rgb(195, 217, 255); border-left-style: solid; border-left-width: 2px; border-right-color: rgb(195, 217, 255); border-right-style: solid; border-right-width: 2px; border-top-color: rgb(195, 217, 255); border-top-left-radius: 6px; border-top-right-radius: 6px; border-top-style: solid; border-top-width: 2px; float: left; font-family: arial, sans-serif; font-size: 13px; margin-bottom: 2px; margin-left: 2px; margin-right: 2px; margin-top: 2px; padding-bottom: 1px; padding-left: 1px; padding-right: 1px; padding-top: 1px; width: 10em;">
+<table cellpadding="0" cellspacing="0" style="table-layout: fixed; width: 131px;">
+<tbody>
+<tr>
+<td class="id" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial initial; background-repeat: initial initial; border-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-color: initial; border-left-style: initial; border-left-width: 0px; border-right-color: rgb(204, 204, 204); border-right-style: solid; border-right-width: 0px; border-style: initial; border-top-width: 0px; cursor: pointer; font-size: 13px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; text-align: left; width: 5em;"><img src="http://www.gstatic.com/codesite/ph/images/star_on.gif" style="border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-width: 0px; border-right-width: 0px; border-style: initial; border-top-width: 0px;">&nbsp;<a href="http://code.google.com/p/redmine-java-api/issues/detail?id=125" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://code.google.com/p/redmine-java-api/issues/detail?id=125', '125']);" style="color: purple; white-space: nowrap;">125</a></td>
+<td class="status" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial initial; background-repeat: initial initial; border-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-color: initial; border-left-style: initial; border-left-width: 0px; border-right-color: initial; border-right-style: initial; border-right-width: 0px; border-style: initial; border-top-width: 0px; cursor: pointer; font-size: 12px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px; text-align: right; width: 62px;">Fixed</td>
+</tr>
+<tr style="border-bottom-color: initial; border-bottom-style: initial; border-bottom-width: 0px;">
+<td colspan="2" style="background-attachment: initial; background-clip: initial; background-color: white; background-image: initial; background-origin: initial; background-position: initial initial; background-repeat: initial initial; border-bottom-color: rgb(204, 204, 204); border-bottom-style: solid; border-bottom-width: 0px; border-color: initial; border-image: initial; border-left-color: initial; border-left-style: initial; border-left-width: 0px; border-right-color: initial; border-right-style: initial; border-right-width: 0px; border-style: initial; border-top-width: 0px; cursor: pointer; font-size: 13px; overflow-x: hidden; overflow-y: hidden; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; padding-top: 2px;">
+<div style="font-size: 12px; height: 5.5ex; line-height: 12px;"><a href="http://code.google.com/p/redmine-java-api/issues/detail?id=125" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://code.google.com/p/redmine-java-api/issues/detail?id=125', 'Add setter for the spentHours field in Issue class']);" style="color: black; text-decoration: none;">Add setter for the spentHours field in Issue class</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+					
+									</div>
+				<!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">‹ <a href="{{site.baseurl}}/2012/04/06/task-adapter-1-7-2-important-bugfix/" rel="prev">Task Adapter 1.7.2: Important bugfix.</a></div>
+					<div class="next"><a href="{{site.baseurl}}/2012/04/24/task-adapter-1-7-3-fixes-for-linux-and-macos-packaging/" rel="next">Task Adapter 1.7.3: fixes for Linux and MacOS packaging</a> ›</div>
+				</div>
+				<!-- end of .navigation -->
+
+				
+
+	<div class="post-data">
+				Posted in <a href="{{site.baseurl}}/category/redmine/">redmine</a>, <a href="{{site.baseurl}}/category/redmine-java-api/">redmine java api</a>	</div><!-- end of .post-data -->
+
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-278 -->
+			
+						
+
+
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit">
+		
+		<div id="categories-5" class="widget-wrapper widget_categories"><div class="widget-title"><h3>Categories</h3></div>		<ul>
+	<li class="cat-item cat-item-9"><a href="{{site.baseurl}}/category/atlassian-jira/">atlassian jira</a> (22)
+</li>
+	<li class="cat-item cat-item-15"><a href="{{site.baseurl}}/category/basecamp/">basecamp</a> (4)
+</li>
+	<li class="cat-item cat-item-16"><a href="{{site.baseurl}}/category/basecamp-classic/">basecamp classic</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="{{site.baseurl}}/category/development/">development</a> (5)
+</li>
+	<li class="cat-item cat-item-13"><a href="{{site.baseurl}}/category/github/">github</a> (3)
+</li>
+	<li class="cat-item cat-item-12"><a href="{{site.baseurl}}/category/mantisbt/">mantisbt</a> (8)
+</li>
+	<li class="cat-item cat-item-11"><a href="{{site.baseurl}}/category/microsoft-project/">microsoft project</a> (28)
+</li>
+	<li class="cat-item cat-item-7"><a href="{{site.baseurl}}/category/redmine/">redmine</a> (44)
+</li>
+	<li class="cat-item cat-item-8"><a href="{{site.baseurl}}/category/redmine-java-api/">redmine java api</a> (18)
+</li>
+	<li class="cat-item cat-item-10"><a href="{{site.baseurl}}/category/release/">release</a> (56)
+</li>
+	<li class="cat-item cat-item-1"><a href="{{site.baseurl}}/category/uncategorized/">Uncategorized</a> (12)
+</li>
+		</ul>
+</div>
+			</div><!-- end of #widgets -->
+</div>

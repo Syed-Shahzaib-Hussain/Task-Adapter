@@ -1,0 +1,76 @@
+<div id="wrapper" class="clearfix">
+
+<div id="content" class="grid col-620">
+
+	
+	
+		
+						<div id="post-279" class="post-279 post type-post status-publish format-standard hentry category-release">
+				
+				
+	<h1 class="entry-title post-title">Task Adapter 1.7.3: fixes for Linux and MacOS packaging</h1>
+
+<div class="post-meta">
+	<span class="meta-prep meta-prep-author posted">Posted on </span><a href="{{site.baseurl}}/2012/04/24/task-adapter-1-7-3-fixes-for-linux-and-macos-packaging/" title="Task Adapter 1.7.3: fixes for Linux and MacOS packaging" rel="bookmark"><time class="timestamp updated" datetime="2012-04-24T04:08:00+00:00">April 24, 2012</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="{{site.baseurl}}/author/admin/" title="View all posts by admin">admin</a></span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<p>Today&nbsp;we got a user report about files not being marked as “executable” in MacOS version. Apparently,&nbsp;Linux version had the same problem. We fixed this problem right away and released v. 1.7.3.<br>This version does not have any other user-facing changes, so Windows users should simply ignore this release.</p>
+
+					
+									</div>
+				<!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">‹ <a href="{{site.baseurl}}/2012/04/06/redmine-java-api-1-9-0-support-for-delete-issue-relations/" rel="prev">Redmine Java API 1.9.0: support for "Delete issue relations"</a></div>
+					<div class="next"><a href="{{site.baseurl}}/2012/05/17/redmine-java-api-1-10-released-going-json/" rel="next">Redmine Java API 1.10 released: going JSON</a> ›</div>
+				</div>
+				<!-- end of .navigation -->
+
+				
+
+	<div class="post-data">
+				Posted in <a href="{{site.baseurl}}/category/release/">release</a>	</div><!-- end of .post-data -->
+
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-279 -->
+			
+						
+
+
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit">
+		
+		<div id="categories-5" class="widget-wrapper widget_categories"><div class="widget-title"><h3>Categories</h3></div>		<ul>
+	<li class="cat-item cat-item-9"><a href="{{site.baseurl}}/category/atlassian-jira/">atlassian jira</a> (22)
+</li>
+	<li class="cat-item cat-item-15"><a href="{{site.baseurl}}/category/basecamp/">basecamp</a> (4)
+</li>
+	<li class="cat-item cat-item-16"><a href="{{site.baseurl}}/category/basecamp-classic/">basecamp classic</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="{{site.baseurl}}/category/development/">development</a> (5)
+</li>
+	<li class="cat-item cat-item-13"><a href="{{site.baseurl}}/category/github/">github</a> (3)
+</li>
+	<li class="cat-item cat-item-12"><a href="{{site.baseurl}}/category/mantisbt/">mantisbt</a> (8)
+</li>
+	<li class="cat-item cat-item-11"><a href="{{site.baseurl}}/category/microsoft-project/">microsoft project</a> (28)
+</li>
+	<li class="cat-item cat-item-7"><a href="{{site.baseurl}}/category/redmine/">redmine</a> (44)
+</li>
+	<li class="cat-item cat-item-8"><a href="{{site.baseurl}}/category/redmine-java-api/">redmine java api</a> (18)
+</li>
+	<li class="cat-item cat-item-10"><a href="{{site.baseurl}}/category/release/">release</a> (56)
+</li>
+	<li class="cat-item cat-item-1"><a href="{{site.baseurl}}/category/uncategorized/">Uncategorized</a> (12)
+</li>
+		</ul>
+</div>
+			</div><!-- end of #widgets -->
+</div>

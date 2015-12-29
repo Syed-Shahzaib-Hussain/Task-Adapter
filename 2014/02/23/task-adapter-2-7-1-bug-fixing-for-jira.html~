@@ -1,0 +1,84 @@
+---
+layout: default
+---
+<div id="wrapper" class="clearfix">
+
+<div id="content" class="grid col-620">
+
+	
+	
+		
+						<div id="post-683" class="post-683 post type-post status-publish format-standard hentry category-atlassian-jira category-release">
+				
+				
+	<h1 class="entry-title post-title">Task Adapter 2.7.1: bug fixing for Jira</h1>
+
+<div class="post-meta">
+	<span class="meta-prep meta-prep-author posted">Posted on </span><a href="{{site.baseurl}}/2014/02/23/task-adapter-2-7-1-bug-fixing-for-jira/" title="Task Adapter 2.7.1: bug fixing for Jira" rel="bookmark"><time class="timestamp updated" datetime="2014-02-23T07:18:55+00:00">February 23, 2014</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="{{site.baseurl}}/author/admin/" title="View all posts by admin">admin</a></span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<p>Task Adapter 2.7.1 has two important bug fixes for Atlassian Jira connector:</p>
+<ul>
+<li>Can’t load more than 50 Jira tasks in one request</li>
+<li>Jira: error shown in some cases: “JSONObject[“self”] not found”</li>
+</ul>
+<p>It’s available in the <a title="Download" href="{{site.baseurl}}/download/">Downloads </a>section.</p>
+
+					
+									</div>
+				<!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">‹ <a href="{{site.baseurl}}/2014/01/17/task-adapter-2-7-drop-your-msp-files/" rel="prev">Task Adapter 2.7: drop your MSP files</a></div>
+					<div class="next"><a href="{{site.baseurl}}/2014/02/28/customers-experience-of-jira-redmine-transfer/" rel="next">Customer’s experience of Jira-Redmine transfer</a> ›</div>
+				</div>
+				<!-- end of .navigation -->
+
+				
+
+	<div class="post-data">
+				Posted in <a href="{{site.baseurl}}/category/atlassian-jira/">atlassian jira</a>, <a href="{{site.baseurl}}/category/release/">release</a>	</div><!-- end of .post-data -->
+
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-683 -->
+			
+						
+
+
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit">
+		
+		<div id="categories-5" class="widget-wrapper widget_categories"><div class="widget-title"><h3>Categories</h3></div>		<ul>
+	<li class="cat-item cat-item-9"><a href="{{site.baseurl}}/category/atlassian-jira/">atlassian jira</a> (22)
+</li>
+	<li class="cat-item cat-item-15"><a href="{{site.baseurl}}/category/basecamp/">basecamp</a> (4)
+</li>
+	<li class="cat-item cat-item-16"><a href="{{site.baseurl}}/category/basecamp-classic/">basecamp classic</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="{{site.baseurl}}/category/development/">development</a> (5)
+</li>
+	<li class="cat-item cat-item-13"><a href="{{site.baseurl}}/category/github/">github</a> (3)
+</li>
+	<li class="cat-item cat-item-12"><a href="{{site.baseurl}}/category/mantisbt/">mantisbt</a> (8)
+</li>
+	<li class="cat-item cat-item-11"><a href="{{site.baseurl}}/category/microsoft-project/">microsoft project</a> (28)
+</li>
+	<li class="cat-item cat-item-7"><a href="{{site.baseurl}}/category/redmine/">redmine</a> (44)
+</li>
+	<li class="cat-item cat-item-8"><a href="{{site.baseurl}}/category/redmine-java-api/">redmine java api</a> (18)
+</li>
+	<li class="cat-item cat-item-10"><a href="{{site.baseurl}}/category/release/">release</a> (56)
+</li>
+	<li class="cat-item cat-item-1"><a href="{{site.baseurl}}/category/uncategorized/">Uncategorized</a> (12)
+</li>
+		</ul>
+</div>
+			</div><!-- end of #widgets -->
+</div>

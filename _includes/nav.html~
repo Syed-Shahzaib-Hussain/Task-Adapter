@@ -1,0 +1,11 @@
+<nav id="nav">
+			<ul>
+				<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '{{site.baseurl}}/index.html' %}selected{% endif %}">Home</a></li>
+				<li><a href="{{site.baseurl}}/features.html" class="{% if page.url == '/features.html' %}selected{% endif %}">Features</a></li>
+				<li><a href="{{site.baseurl}}/user-guide.html" class="{% if page.url == '/user-guide.html' %}selected{% endif %}">User Guide</a></li>
+				<li><a href="{{site.baseurl}}/download.html" class="{% if page.url == '/download.html' %}selected{% endif %}">Download</a></li>
+				<li><a href="{{site.baseurl}}/buy.html" class="{% if page.url == '/buy.html' %}selected{% endif %}">Buy</a></li>
+				<li><a href="{{site.baseurl}}/contacts.html" class="{% if page.url == '/contacts.html' %}selected{% endif %}">Contacts</a></li>
+				<li><a href="{{site.baseurl}}/blog.html" class="{% if page.url == '/blog' %}selected{% endif %}">Blog</a></li>
+			</ul>
+</nav>

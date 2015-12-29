@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/style.css">
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/normal.css">
+	<title></title>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<!-- <h1>TASK ADAPTER</h1> -->
+
+			<img src="{{site.baseurl}}/img/TaskAdapterLogo1.png">
+			{% include nav.html %}
+		</header>
+	<div id="wrapper">
+
+	{{content}}
+	</div>
+	</div>
+</body>
+</html>

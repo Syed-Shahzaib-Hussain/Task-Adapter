@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/normal.css">
+	<title></title>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<!-- <h1>TASK ADAPTER</h1> -->
+
+			<img src="/img/TaskAdapterLogo1.png">
+			<nav id="nav">
+			<ul>
+				<li><a href="/index" class="">Home</a></li>
+				<li><a href="/features" class="">Features</a></li>
+				<li><a href="/user-guide" class="">User Guide</a></li>
+				<li><a href="/download" class="">Download</a></li>
+				<li><a href="/buy" class="">Buy</a></li>
+				<li><a href="/contacts" class="">Contacts</a></li>
+				<li><a href="/blog" class="">Blog</a></li>
+			</ul>
+</nav>
+
+		</header>
+
+	<section class="docs">
+    <div class="flex-container">
+        <!-- user guide navigation -->
+        <div class="flex-item">
+            
+
+
+
+
+
+<li class=""><a href="/docs/quickstart/">Quickstart</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/task-adapter-installation/">Installation</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/using-task-adapter/">Using Task Adapter</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/atlassian-jira/">Atlassian JIRA</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/atlassian-jira-configuration/">JIRA configuration</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/atlassian-jira/atlassian-jira-and-microsoft-project-integration-step-by-step-guide/">JIRA and Microsoft Project integration - step by step guide</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/atlassian-jira/atlassian-jira-and-microsoft-project/">Integrate Atlassian JIRA and Microsoft Project</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/microsoft-project/">Microsoft Project</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/microsoft-project-integration/">Microsoft Project Integration</a></li>
+
+
+
+
+
+
+
+<li class="current_documentation_page_navigatation_label"><a href="/docs/how-to-update-tasks-in-redmine-jira/">How to update tasks in Redmine / JIRA</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/redmine/">Redmine</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/redmine/export-sub-projects-from-redmine/">Exporting sub-projects from Redmine</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/github/">Github integration</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/mantisbt/">MantisBT Bug Tracker integration</a></li>
+
+
+
+
+
+
+
+<li class=""><a href="/docs/basecamp/">Basecamp and Basecamp Classic integration</a></li>
+
+
+        </div>
+
+        <div class="flex-item">
+            <h2 id="use-case">Use-case:</h2>
+
+<p>You have a Microsoft Project XML file that you want to export to your bug tracker (like Redmine or JIRA).
+After this you want to make some changes in the project file and send updates to the bug tracker rather
+than creating a bunch of almost-duplicated tasks.</p>
+
+<h2 id="steps">Steps:</h2>
+
+<p>Open the sync config page. In Task Fields Mapping section there is “Id” field:
+<img src="/images/uploads/id_selected.png" alt="Task Fields mapping panel with ID field selected" /></p>
+
+<p>Select this field before you start your first export from MSP to Redmine / JIRA.
+You can leave the default “TEXT22” value unchanged.</p>
+
+<p>Start the export.
+TaskAdapter will create tasks in the target system and then save the newly created task IDs
+(like “123” for Redmine or “MYPROJECT-123” for JIRA) in the specified custom field (“TEXT22” in this example)
+in the Microsoft Project XML file.
+You can then open this XML file in Microsoft Project again, make some changes, then export as XML.
+Say, you put it into the same location already known to TaskAdapter.
+Then next time you perform export from this file to Redmine / JIRA, the tasks that were previously created
+will be updated rather than duplicated and the ones that are new will be created.</p>
+
+<h2 id="how-to-see-custom-fields-in-microsoft-project">How to see custom fields in Microsoft Project.</h2>
+
+<p>These custom fields (like Text22) are not shown in Microsoft Project by default,
+ but you can view them by clicking on “Add New column” header and selecting a field you want:</p>
+
+<p><img src="/images/uploads/add_column.png" alt="Add Column" /></p>
+
+<p>Start typing “Text” to filter out other fields and see all custom ones:</p>
+
+<p><img src="/images/uploads/fields.png" alt="Fields" /></p>
+
+<p>You can see that before the first export from this Microsoft Project XML file Text22 field is empty:
+<img src="/images/uploads/empty.png" alt="Empty field" /></p>
+
+<p>But once you export data to Redmine or JIRA (or any other system TaskAdapter supports),
+you can reopen the XML file in Microsoft Project and see that Text22 field contains the IDs produced
+ by the target system (Redmine in this case):</p>
+
+<p><img src="/images/uploads/filled.png" alt="Microsoft Project Table cells TEXT22 field filled with remote IDs from Redmine" /></p>
+
+<p>This is how TaskAdapter knows that these tasks were previously exported to the target system and it can update
+ them rather than re-create next time you perform export from your XML file to Redmine / JIRA.</p>
+
+<p>You can see the newly created tasks in Redmine web UI:</p>
+
+<p><img src="/images/uploads/redmine_tasks.jpg" alt="Redmine tasks" /></p>
+
+<p>Here are sample IDs produced by JIRA:</p>
+
+<p><img src="/images/uploads/jira_ids.png" alt="JIRA ids in Microsoft Project text field TEXT 22" /></p>
+
+<p>And here is how these tasks look in JIRA web UI:
+<img src="/images/uploads/jira_tasks.jpg" alt="JIRA tasks" /></p>
+
+
+        </div>
+    </div>
+</section>
+
+	</div>
+</body>
+</html>

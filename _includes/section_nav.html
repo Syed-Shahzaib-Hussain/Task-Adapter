@@ -1,0 +1,13 @@
+{% for component in site.components %}
+
+{% assign document_url = component.permalink %}
+
+{% if document_url == page.url %}
+    {% assign link_class = 'current_documentation_page_navigatation_label' %}
+{% else %}
+    {% assign link_class = '' %}
+{% endif %}
+
+<li class="{{ link_class }}"><a href="{{ site.baseurl }}{{ document_url }}">{{ component.title }}</a></li>
+
+{% endfor %}

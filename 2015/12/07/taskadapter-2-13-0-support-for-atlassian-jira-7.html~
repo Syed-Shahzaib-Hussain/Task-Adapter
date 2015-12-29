@@ -1,0 +1,81 @@
+---
+layout: default
+---
+<div id="wrapper" class="clearfix">
+
+<div id="content" class="grid col-620">
+
+	
+	
+		
+						<div id="post-823" class="post-823 post type-post status-publish format-standard hentry category-uncategorized">
+				
+				
+	<h1 class="entry-title post-title">TaskAdapter 2.13.0: support for Atlassian JIRA 7</h1>
+
+<div class="post-meta">
+	<span class="meta-prep meta-prep-author posted">Posted on </span><a href="{{site.baseurl}}/2015/12/07/taskadapter-2-13-0-support-for-atlassian-jira-7/" title="TaskAdapter 2.13.0: support for Atlassian JIRA 7" rel="bookmark"><time class="timestamp updated" datetime="2015-12-07T06:22:59+00:00">December 7, 2015</time></a><span class="byline"> by </span><span class="author vcard"><a class="url fn n" href="{{site.baseurl}}/author/admin/" title="View all posts by admin">admin</a></span>
+	</div><!-- end of .post-meta -->
+
+				<div class="post-entry">
+					<p>The new TaskAdapter release brings support for Atlassian JIRA 7.<br>
+Since the new JIRA 7 does not have SOAP API anymore, we completed migration to the REST-based API.<br>
+This version is fully tested with JIRA 6.4.11 and JIRA 7.0.0-rc3.</p>
+
+					
+									</div>
+				<!-- end of .post-entry -->
+
+				<div class="navigation">
+					<div class="previous">‹ <a href="{{site.baseurl}}/2015/12/06/taskadapter-2-12-0-bugfixes-for-update-task-operation-in-redmine-and-github/" rel="prev">TaskAdapter 2.12.0: bugfixes for “update task” operation in Redmine and Github</a></div>
+					<div class="next"></div>
+				</div>
+				<!-- end of .navigation -->
+
+				
+
+	<div class="post-data">
+				Posted in <a href="{{site.baseurl}}/category/uncategorized/">Uncategorized</a>	</div><!-- end of .post-data -->
+
+
+<div class="post-edit"></div>
+							</div><!-- end of #post-823 -->
+			
+						
+
+
+
+			
+		
+</div><!-- end of #content -->
+
+
+	<div id="widgets" class="grid col-300 fit">
+		
+		<div id="categories-5" class="widget-wrapper widget_categories"><div class="widget-title"><h3>Categories</h3></div>		<ul>
+	<li class="cat-item cat-item-9"><a href="{{site.baseurl}}/category/atlassian-jira/">atlassian jira</a> (22)
+</li>
+	<li class="cat-item cat-item-15"><a href="{{site.baseurl}}/category/basecamp/">basecamp</a> (4)
+</li>
+	<li class="cat-item cat-item-16"><a href="{{site.baseurl}}/category/basecamp-classic/">basecamp classic</a> (2)
+</li>
+	<li class="cat-item cat-item-14"><a href="{{site.baseurl}}/category/development/">development</a> (5)
+</li>
+	<li class="cat-item cat-item-13"><a href="{{site.baseurl}}/category/github/">github</a> (3)
+</li>
+	<li class="cat-item cat-item-12"><a href="{{site.baseurl}}/category/mantisbt/">mantisbt</a> (8)
+</li>
+	<li class="cat-item cat-item-11"><a href="{{site.baseurl}}/category/microsoft-project/">microsoft project</a> (28)
+</li>
+	<li class="cat-item cat-item-7"><a href="{{site.baseurl}}/category/redmine/">redmine</a> (44)
+</li>
+	<li class="cat-item cat-item-8"><a href="{{site.baseurl}}/category/redmine-java-api/">redmine java api</a> (18)
+</li>
+	<li class="cat-item cat-item-10"><a href="{{site.baseurl}}/category/release/">release</a> (56)
+</li>
+	<li class="cat-item cat-item-1"><a href="{{site.baseurl}}/category/uncategorized/">Uncategorized</a> (12)
+</li>
+		</ul>
+</div>
+			</div><!-- end of #widgets -->
+</div>
