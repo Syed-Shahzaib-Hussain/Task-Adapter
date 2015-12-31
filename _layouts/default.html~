@@ -11,13 +11,12 @@
 		<header>
 			<!-- <h1>TASK ADAPTER</h1> -->
 
-			<img src="{{site.baseurl}}/img/TaskAdapterLogo1.png">
+			<a href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/img/TaskAdapterLogo1.png"></a>
 			{% include nav.html %}
 		</header>
-	<div id="wrapper">
 
 	{{content}}
-	</div>
+
 	</div>
 </body>
 </html>
