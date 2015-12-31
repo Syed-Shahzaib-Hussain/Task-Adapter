@@ -15,7 +15,7 @@ layout: default
 
 
 				<div class="post-entry">
-					<p>Task Adapter 1-year license. <a href="/license-agreement">View the license agreement</a>.</p>
+					<p>Task Adapter 1-year license. <a href="{{site.baseurl}}/license-agreement">View the license agreement</a>.</p>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick"><br>
 <input type="hidden" name="hosted_button_id" value="NPBQJDJM6E27S"><p></p>
