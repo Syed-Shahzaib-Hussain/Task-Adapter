@@ -34,7 +34,7 @@ layout: default
 		<div id="featured-image" class="grid col-460 fit">
 
 			
-			<p><img alt="" src="{{site.baseurl}}/wp-content/uploads/2012/05/ta-image.png"></p>
+			<p><img alt="" src="http://www.taskadapter.com/wp-content/uploads/2012/05/ta-image.png"></p>
 
 		</div>
 		<!-- end of #featured-image -->
